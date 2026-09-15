@@ -49,11 +49,21 @@ body{
 }
 
 .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.menu ul{
+    display: flex;
     gap: 20px;
+    list-style: none;
 }
 
 .menu a{
     text-decoration: none;
+
 }
 
 .hero{
@@ -97,6 +107,7 @@ body{
 .botoes a{
     color: var(--slate-500);
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .botao{
@@ -105,4 +116,76 @@ body{
     color: var(--white) !important;
     padding: 20px;
     border-radius: 100px;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    margin-top: 80px;
+    font-family: 'inter', sans-serif;
+}
+
+.card1 h3{
+    font-size: 25px;
+    color: #334155;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+ 
+.card1 p{
+    font-family: 10px;
+    font-weight: 700;
+    color: #64748b;
+ 
+}
+
+.funciona{
+    background-color: #eceeee;
+    padding: 60px 30px;
+}
+
+.funciona h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 800px;
+    font-size: 40px;
+    color: #0f172a;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 80px;
+    margin-left: 140px;
+}
+ 
+.grid-1{
+    background-color: #ffffff;
+    padding: 50px 20px;
+    width: 25rem;
+    border-radius: 30px;
+    box-shadow: inset 0px 2px 4px rgba(0,0,0,0.1);
+    transition: 0.3
+}
+
+.grid-2{
+     background-color: #ffffff;
+    padding: 50px 20px;
+    width: 25rem;
+    border-radius: 30px;
+    box-shadow: inset 0px 2px 4px rgba(0,0,0,0.1);
+    transition: 0.3
+}
+
+.grid-3{
+    background-color: #ffffff;
+    padding: 50px 20px;
+    width: 25rem;
+    border-radius: 30px;
+    box-shadow: inset 0px 2px 4px rgba(0,0,0,0.1);
+    transition: 0.3
+}
+
+.grid-1 h1{
+    
 }
