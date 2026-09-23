@@ -1,0 +1,77 @@
+:root {
+  --green: #16a34a;
+  --green-dark: #15803d;
+  --green-light: #dcfce7;
+  --green-pale: #f0fdf4;
+  --slate-900: #0f172a;
+  --slate-700: #334155;
+  --slate-500: #64748b;
+  --slate-400: #94a3b8;
+  --slate-200: #e2e8f0;
+  --slate-100: #f1f5f9;
+  --white: #ffffff;
+  --bg: #f8fafc;
+  --font-display: 'Outfit', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
+    min-height: 100vh;
+}
+
+
+.material-symbols-outlined {
+     margin-left: 900px;
+     margin-top: 300px;
+
+}
+
+
+
+.reserva h1{
+    display: flex;
+    font-size: 45px;
+    font-weight: 100px;
+    color: #000;
+    align-items: center;
+    margin-top: 300px;
+    justify-content: center;
+
+}
+
+p{
+    display: flex;
+    font-size: 15px;align-items: center;
+    margin-top: 9px;
+    justify-content: center;
+}
+
+
+.alocate_button {
+  background-color: var(--green);
+  border: none;
+  border-radius: 20px;
+  color: var(--white);
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 800px;
+  height: 50px;
+  width: 16rem;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-top: 30px;
+}
+ 
+.alocate_button:hover{
+  background-color: var(--green-dark);
+  box-shadow: 0 0px 10px rgb(0, 0, 0, 0.4);
+  transform: translateY(-5px);
+}
